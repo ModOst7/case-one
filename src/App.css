@@ -215,3 +215,7 @@ html, body {
 .slide-four-print-button {
 
 }
+
+.headKid, .teacherHand {
+  transform-origin:center;
+}

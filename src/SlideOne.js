@@ -34,10 +34,10 @@ export default function SlideOne({one, two, slideOneToggle, slideTwoToggle}){
     }
 
     useChain([slideOneRef, leftMessageRef, teacherOneRef, rightMessageRef, teacherTwoRef, emotionsRef, arrowNextRef], [0, 0.3, 0.5, 0.9, 1.1, 1.3, 1.8]);
-
+// <animated.img style={propsArrowNext} className='slide-one-arrow-next' src='./img/slide1_arrow.svg' onClick={slideOneClick} ></animated.img>
     return <animated.div className='slide-1' style={propsSlideOne}>
     <animated.img style={propsEmotions} className='slide-one-emotions' src='./img/slide1_emotions.svg'></animated.img>
-    <animated.img style={propsArrowNext} className='slide-one-arrow-next' src='./img/slide1_arrow.svg' onClick={slideOneClick} ></animated.img>
+    <animated.svg style={propsArrowNext} className='slide-one-arrow-next' onClick={slideOneClick} id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95.41 175.54"><defs><style>{`.cls-1{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:9.38px;}`}</style></defs><path className="cls-1" d="M4.69,4.69l86,86-86,80.13"/></animated.svg>
     <animated.img style={propsLeftMessage} className='slide-one-left-message' src='./img/slide1_left-message.svg'></animated.img>
     <animated.img style={propsTeacherOne} className='slide-one-teacher-1' src='./img/slide1_teacher1.svg'></animated.img>
     <animated.img style={propsTeacherTwo} className='slide-one-teacher-2' src='./img/slide1_teacher2.svg'></animated.img>
